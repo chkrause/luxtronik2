@@ -1,7 +1,7 @@
-const luxtronik = require('./luxtronik');
+const luxtronik = require('./index');
 
 /* eslint no-console: "off" */
-const pump = luxtronik.createConnection('127.0.0.1', 8888);
+const pump = luxtronik.createConnection('192.168.2.50', 8888);
 
 pump.read(function (err, data) {
     if (err) {

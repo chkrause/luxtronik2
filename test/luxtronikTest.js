@@ -6,7 +6,7 @@ const path = require('path');
 const assert = require('assertthat');
 const mitm = require('mitm')();
 
-const luxtronik = require('../luxtronik');
+const luxtronik = require('../index');
 
 let receiveDataBuffer = [];
 
