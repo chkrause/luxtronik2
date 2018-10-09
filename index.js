@@ -1,3 +1,3 @@
 const luxtronik = require('./lib/luxtronik');
 
-module.exports.createConnection = luxtronik.createConnection;
+module.exports.createLuxtronik = luxtronik.createLuxtronik;
